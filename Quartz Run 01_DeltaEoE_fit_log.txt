@@ -1,0 +1,68 @@
+28-May-2020 13:36:36: Begin beam deflection program: C:\Users\grad_\Documents\Research\Code\BD_Fresnel_GUI\BD_Fresnel_GUI 2.2\BD_Fresnel_GUI.
+
+Import data file C:\Users\grad_\Documents\Research\Code\BD_Fresnel_GUI\Test data\Quartz Run 01_DeltaEoE.txt.
+
+Data Offsets:
+    shift:               0 fs
+
+Simulation Parameters:
+    X_num:               50
+    X_max:               5 w_0
+    T_num:               100
+    T_max:               5 tau_p
+
+Excitation parameters:
+    E_e:                 1.36 uJ
+    lambda_e:            800 nm
+    tau_e (FWHM):        55 fs
+    tau_e (HW1/eM):      33.031 fs
+    w_0e:                246 um
+    I_0e:                24.437 GW/cm^2
+
+Probe parameters:
+    lambda_p:            650 nm
+    tau_p (FWHM):        60 fs
+    tau_p (HW1/eM):      36.034 fs
+    w_0p:                43 um
+
+System parameters:
+    d:                   15 cm
+    x_0:                 0.5 w_0_p
+
+Material parameters:
+    L:                   1 mm
+    rho:                 0.709
+
+  At excitation wavelength:
+    R_e:                 0.000 %
+    alpha_e:             0.000 cm^-1
+    n_e:                 1.4533
+    dndl_e:              -0.017284 um^-1
+    ng_e:                1.467
+    Tlin_e:              100.000 %
+
+  At probe wavelength:
+    R_p:                 0.000 %
+    alpha_p:             0.000 cm^-1
+    n_p:                 1.4565
+    dndl_p:              -0.027158 um^-1
+    ng_p:                1.474
+    Tlin_p:              100.000 %
+
+Mechanism 1:
+    Type:                Electronic (both)
+    alpha_2e:            0 e-11 m/W
+    n_2e:                0.25 e-19 m^2/W
+    sigma:               0 ps^-1
+    tau_lf:              0 fs
+
+Exported fitting data to C:\Users\grad_\Documents\Research\Code\BD_Fresnel_GUI\Test data\Quartz Run 01_DeltaEoE_fit.txt.
+
+Please cite the following references when using products from this program.
+
+    1: Reichert, M., et al. (2014). "Temporal, spectral, and polarization dependence of the nonlinear optical response of carbon disulfide." Optica 1(6): 436.
+
+    2: Reichert, M., et al. (2014). "Temporal, spectral, and polarization dependence of the nonlinear optical response of carbon disulfide: supplementary material." Optica 1(6): 436.
+
+    3: Ferdinandus, M. R., et al. (2013). "Beam deflection measurement of time and polarization resolved ultrafast nonlinear refraction." Opt Lett 38(18): 3518-3521.
+
